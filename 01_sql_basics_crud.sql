@@ -1,5 +1,14 @@
--- SQL Basics: Table Creation, CRUD Operations & Data Types
--- Author: Data Analytics Practice
+-- SQL Practice: Table Creation, CRUD Operations & Data Types
+-- Author: Waqas Manzoor
+-- Topic: PostgreSQL Schema Creation, Data Manipulation (INSERT/UPDATE/DELETE), and ALTER Statements
+
+/*
+=====================================================
+Topic: SQL Fundamentals & CRUD Operations
+Note: Database queries for schema design, constraints,
+      filtering, and type casting in PostgreSQL.
+=====================================================
+*/
 
 -- 1. Create Employee Table
 CREATE TABLE employee (
@@ -12,7 +21,7 @@ CREATE TABLE employee (
     age INT CHECK (age > 18)
 );
 
--- 2. Insert Records (Correct Column-Value Alignment)
+-- 2. Insert Records
 INSERT INTO employee (first_name, last_name, department, salary, joining_date, age) VALUES
 ('Amit', 'Sharma', 'IT', 65000.00, '2022-05-01', 29),
 ('Neha', 'Patel', 'HR', 55000.00, '2021-08-15', 32),
@@ -59,7 +68,6 @@ SET age = age + 1;
 
 -- Verify final data
 SELECT * FROM employee;
-
 
 
 
