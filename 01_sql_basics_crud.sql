@@ -1,5 +1,5 @@
 -- SQL Practice: Table Creation, CRUD Operations & Data Types
--- Author: Waqas Manzoor
+-- Author: Waqas Manzoor 
 -- Topic: PostgreSQL Schema Creation, Data Manipulation (INSERT/UPDATE/DELETE), and ALTER Statements
 
 /*
